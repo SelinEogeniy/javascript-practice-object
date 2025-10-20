@@ -14,3 +14,12 @@ const person = {
 };
 console.table(person);
 console.log(person.name);
+
+// Завдання 2: Додавання та зміна властивостей
+
+// До об’єкта person додай властивість city і присвой їй значення "Kyiv". Потім зміни значення властивості age на 26.
+
+person.city = "Kyiv";
+person.age = 26;
+
+console.table(person);
