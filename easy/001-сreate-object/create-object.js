@@ -23,3 +23,13 @@ person.city = "Kyiv";
 person.age = 26;
 
 console.table(person);
+
+// Завдання 3: Використання об’єкта в функції
+
+// Напиши функцію greet, яка приймає об’єкт person і повертає рядок:
+// "Hello, my name is [name] and I am [age] years old."
+
+function greet(obj) {
+  return `Hello, my name is ${obj.name} and I am ${obj.age} years old`;
+}
+console.log(greet(person));
