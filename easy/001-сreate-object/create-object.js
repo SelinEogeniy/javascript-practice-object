@@ -33,3 +33,11 @@ function greet(obj) {
   return `Hello, my name is ${obj.name} and I am ${obj.age} years old`;
 }
 console.log(greet(person));
+
+// Завдання 4: Перебирання об’єкта
+
+// Виведи в консоль всі ключі та значення об’єкта person.
+
+for (const key in person) {
+  console.log(`key: ${key}, value: ${person[key]}`);
+}
