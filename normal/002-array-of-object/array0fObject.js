@@ -13,3 +13,14 @@ users.map((user) => console.log(user.name));
 /// Anna
 /// Oleh
 /// Katya
+
+// . Пошук у масиві об’єктів
+
+// Напиши функцію findUserByName(users, name), яка повертає об’єкт користувача з певним ім’ям.
+
+function findUserByName(users, name) {
+  return users.find((user) => user.name === name);
+}
+
+console.log(findUserByName(users, "Oleh"));
+// {name: "Oleh", age: 25}
