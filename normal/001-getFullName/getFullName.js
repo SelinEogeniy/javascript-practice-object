@@ -8,3 +8,4 @@ function getFullName(obj) {
 
 console.log(getFullName({ firstName: "Євген", lastName: "Сидоренко" }));
 // "Євген Сидоренко"
+m;
